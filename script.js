@@ -9,9 +9,9 @@ themeButton.addEventListener('click', () => {
 
     //Update button label dynamically
     if (body.classList.contains('dark-mode')){
-        themeButton.textContent ='Switch to light Mode';
+        themeButton.textContent = 'Switch to light Mode';
     }else{
-        themeButton.textContent ='Switch to Dark Mode';
+        themeButton.textContent = 'Switch to Dark Mode';
 
     }
 });
